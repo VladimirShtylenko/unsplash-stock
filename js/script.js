@@ -4,7 +4,7 @@ const swiper = new Swiper('.header__bottom', {
     slidesPerView: 12,
 
 });
-const apiKey = 'K76rd3MG7yUct-41p_6oogHFtYIa0h1o5Eez_6nB0Pk',
+const apiKey = '3w61JFNzQ0t2ILetkS4eCUAnAThzlVSmJquUvmWucnI',
     headerLink = document.querySelectorAll('.bottom__link'),
     searchInput = document.getElementById('search-input'),
     layoutListBtn = document.querySelector('.layout'),
