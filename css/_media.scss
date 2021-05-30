@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width:650px) {
+    .layout-list .item{
+        width: auto!important;
+    }
     .photo__content__bottom span{
         color: #000000;
     }
