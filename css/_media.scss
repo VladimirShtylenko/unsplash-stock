@@ -1,0 +1,147 @@
+@media screen and (max-width:1300px) {
+    .header__middle .hr {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .gallery__content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+    }
+
+    .layout-list .item {
+        width: 100%;
+    }
+    .favorites__grid {
+        margin-bottom: 0;
+        }
+}
+
+@media screen and (max-width:767px) {
+   
+    .header__middle #search-input {
+        width: 100%;
+    }
+
+    .favorites__grid {
+        margin-bottom: 10px;
+    }
+
+    .header__menu ul li a span {
+        display: none;
+    }
+
+    .selected-item:after {
+        display: none;
+    }
+
+    .related__images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favorites__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .photo__content__bottom span{
+        color: #000000;
+    }
+    .header__logo span {
+        display: none;
+    }
+
+    .header {
+        padding: 30px 0px 49px 0px;
+    }
+
+    .download span {
+        display: none;
+    }
+
+    .photo__content__top .top__right .download {
+        padding: 0;
+    }
+
+    .header__bottom:after {
+        width: 50px;
+    }
+
+    .photo__bg {
+        display: none;
+    }
+
+    .photo__content__top .top__left .top__user-image {
+        width: 49px;
+        height: 49px;
+    }
+
+    .photo__content__top .top__left .top__user-info .user-name {
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .photo__content__top .top__left .top__user-info .user-insta {
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+    .photo__content__top .top__right .download {
+        width: 49px;
+        height: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo__content__middle img {
+        height: 250px;
+    }
+
+    .photo__content__bottom ul {
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        height: 510px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .search-bottom ul {
+    flex-wrap:wrap;
+    }
+    .favorites__title {
+        font-size: 55px;
+    }
+
+    .header__middle #search-input {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .grids {
+        margin-top: 29px;
+    }
+
+    .gallery__content {
+        padding-top: 29px;
+    }
+
+    .photo__content__top .top__left .top__user-info .user-insta {
+        width: 120px;
+        word-break: break-all;
+    }
+
+}
